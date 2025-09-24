@@ -1,0 +1,102 @@
+.contact-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 3rem;
+  align-items: stretch;
+  min-height: 400px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.contact-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--mat-sys-primary) 20%, var(--mat-sys-surface) 100%);
+  color: var(--mat-sys-on-primary);
+  box-shadow: var(--mat-sys-elevation-2);
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    opacity: 0.9;
+
+    @media (max-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+}
+
+.contact-form-wrapper {
+  background-color: var(--mat-sys-surface);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: var(--mat-sys-elevation-2);
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+
+      label {
+        margin-bottom: 0.5rem;
+        font-weight: 500;
+      }
+
+      input, textarea {
+        padding: 0.8rem 1rem;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 1rem;
+        transition: border 0.3s;
+
+        &:focus {
+          outline: none;
+          border-color: var(--mat-sys-primary);
+        }
+      }
+    }
+
+    button {
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      font-weight: bold;
+      background-color: var(--mat-sys-primary);
+      color: var(--mat-sys-on-primary);
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s, transform 0.2s;
+
+      &:hover {
+        background-color: var(--mat-sys-secondary);
+        color: var(--mat-sys-on-secondary);
+        transform: scale(1.05);
+      }
+    }
+  }
+}

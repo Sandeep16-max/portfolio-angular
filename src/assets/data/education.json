@@ -1,0 +1,36 @@
+[
+    {
+      "degree": "Btech Computer Science",
+	  "level": "Bachelor's Degree",
+      "university": "Jaypee Institue of Information Technology,Noida",
+      "completionYear": "2025",
+      "modules": [
+        { "name": "Web Development" },
+        { "name": "ML" },
+		{ "name": "Agile" },
+		{ "name": "Cyber Security" },
+		{ "name": "Cloud Computing" }
+      ]
+    },
+    {
+      "degree": "Senior Secondary(RBSE)",
+	  "level": "",
+      "university": "Pioneer Senior Sechondary School",
+      "completionYear": "2020",
+      "modules": [
+        { "name": "Physics" },
+		    { "name": "Chemistry" },
+		    { "name": "Mathematics" }
+      ]
+    },
+    {
+      "degree": "Secondary(RBSE)",
+	  "level": "",
+      "university": "Pioneer Senior Sechondary School",
+      "completionYear": "2018",
+      "modules": [
+        
+      ]
+    }
+  ]
+  

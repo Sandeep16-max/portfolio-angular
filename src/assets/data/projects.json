@@ -1,0 +1,17 @@
+[
+    {
+      "title": "Agrotech",
+      "description": "A user-friendly web interface for better crop recommendation, fertilizer prediction and profitability for farmers..",
+	  "link": "https://github.com/Sandeep16-max/Agrotech",
+	  "imageUrl": "assets/images/Agrotech.jpg",
+	  "technologies": ["Python", "HTML", "CSS", "Javascript", "Ml Models"]
+	},
+	{
+		"title": "Chat Application",
+		"description": "A Chat application for real time comunication.",
+		"link": "https://github.com/Sandeep16-max/Chat-app",
+		"imageUrl": "assets/images/ChatApp.jpg",
+		"technologies": ["Chakra UI", "React", "MongoDB", "Express", "Node","Socket.io"]
+	}
+]
+  

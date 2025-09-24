@@ -1,0 +1,30 @@
+[
+	{
+	  "position": "Associate Software Engineer",
+	  "company": "Biz2x",
+	  "type": "Full Time",
+	  "location": "Noida (Onsite)",
+	  "duration": "2025 Sep - Present",
+	  "description": "",
+	  "skills": ["Angular", "Javascript", "Typescript"]
+	},
+	{
+	  "position": "Software Engineer Trainee",
+	  "company": "Finsol",
+	  "type": "Intern",
+	  "location": "Noida(Onsite)",
+	  "duration": "2025 Jan - 2025 July",
+	  "description": "Created a high-performance Log Analyzer using Qt framework in C++ to parse and extract key metrics such as latency from large-scale log files.",
+	  "skills": ["C++","Qt Framework",".Net","WPF"]
+	},
+	{
+	  "position": "Web Developer",
+	  "company": "Vidyakul",
+	  "type": "Intern",
+	  "location": "Gurugram(Remote)",
+	  "duration": "2024 June - 2024 July",
+	  "description": "Created a admin dashboard and also optimized the code.",
+	  "skills": ["React","HTML","CSS","Javascript"]
+	}
+]
+  
