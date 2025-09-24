@@ -1,15 +1,30 @@
 <header class="header" *ngIf="(dataService.siteInfo$ | async) as siteInfo">
-  	<div class="logo">{{siteInfo.name}}</div>
-	  <button class="hamburger" (click)="toggleMenu()" aria-label="Toggle menu">
-		&#9776;
-	  </button>
-	<nav class="nav-links" [ngClass]="{ 'open': menuOpen }">
-		<button class="close-btn" (click)="toggleMenu()" aria-label="Close menu">
-			&#10005;
-		</button>
-		<a (click)="scrollTo('home')">Home</a>
-		<a (click)="scrollTo('about')">About</a>
-		<a (click)="scrollTo('projects')">Projects</a>
-		<a (click)="scrollTo('contact')">Contact</a>
-	</nav>
+  <div class="logo">{{siteInfo.name}}</div>
+
+  <!-- Hamburger: visible only when menuOpen is false -->
+  <button 
+    class="hamburger" 
+    (click)="toggleMenu()" 
+    aria-label="Toggle menu"
+    *ngIf="!menuOpen"
+  >
+    &#9776;
+  </button>
+
+  <nav class="nav-links navbar-links" [ngClass]="{ 'open': menuOpen }">
+    <!-- Close button: visible only when menuOpen is true -->
+    <button 
+      class="close-btn" 
+      (click)="toggleMenu()" 
+      aria-label="Close menu"
+      *ngIf="menuOpen"
+    >
+      &#10005;
+    </button>
+
+    <a (click)="scrollTo('home')">Home</a>
+    <a (click)="scrollTo('about')">About</a>
+    <a (click)="scrollTo('projects')">Projects</a>
+    <a (click)="scrollTo('contact')">Contact</a>
+  </nav>
 </header>
